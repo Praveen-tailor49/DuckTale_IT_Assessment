@@ -19,7 +19,7 @@ app.get("/", (req, res) => {
   res.send("Hello to college erp API");
 });
 mongoose
-  .connect(process.env.CONNECTION_URL, {
+  .connect('mongodb+srv://praveentailor4920:5Oroe9W8MYxquyeR@cluster0.utkqyre.mongodb.net/', {
     useNewUrlParser: true,
     useUnifiedTopology: true,
   })
